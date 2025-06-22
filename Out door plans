@@ -1,0 +1,18 @@
+# logical operaters = evaluate multipal conditions, (or, and, not)
+#                or = at least one condition must be true 
+#                and = both condition must be true
+#                not = inverts the condition (not false, not True)
+
+
+temp = int(input("What is the temp ?:"))
+is_sunny = input("Is it sunny (Y/N) ?:")
+
+if temp >= 28 and is_sunny:
+    print("It is Hot outside 🥵")
+    print("It is sunny🎇")
+elif temp <= 10 and is_sunny:
+    print("It is cold outside 🥶")
+    print("It is snowing 🥶")
+elif temp < 28 and temp > 10 and is_sunny:
+    print("It is worm outside 🥵")
+    print("It is sunny🎇")
